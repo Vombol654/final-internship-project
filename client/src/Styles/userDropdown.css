@@ -1,0 +1,80 @@
+.user-dropdown {
+  position: relative;
+}
+
+.dropdown-btn {
+  justify-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+  color: #ccccff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  padding: 0 !important;
+}
+
+.dropdown-btn img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.dropdown-container {
+  position: absolute;
+  top: 4.38rem;
+  left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  gap: 1.8rem;
+  visibility: hidden;
+  padding: 1.2rem;
+  width: 100%;
+  background-color: #292932;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  z-index: 1000;
+}
+
+.active .dropdown-container {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1s ease-in-out;
+}
+
+.dropdown-container a {
+  cursor: pointer;
+  font-size: 1.8rem !important;
+  color: #ccccff !important;
+  padding: 0 !important;
+}
+
+.update-email {
+  cursor: not-allowed;
+}
+
+.update-profile-img {
+  position: relative;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  height: max-content;
+}
+
+.update-profile-img div:nth-child(1) {
+  margin-bottom: 1.6rem;
+}
+
+.update-profile-img .btn-container {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.update-profile-img .btn-container .btn {
+  font-size: 1.6rem;
+  padding: 0.8rem 1.6rem;
+}

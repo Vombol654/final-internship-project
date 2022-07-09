@@ -1,0 +1,341 @@
+.mentor-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.4fr 0.8fr 0.4fr;
+  gap: 3.5rem;
+  /* border: 0.1px solid #292933; */
+  box-shadow: 0 0 0 1px rgba(41, 41, 51, 1);
+  border-radius: 1rem;
+  padding: 3.2rem;
+  color: #292933;
+  width: 100%;
+  /* width: 80%;
+  margin: 0 auto; */
+}
+
+.mentor-card .icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.mentor-card .spots-left {
+  position: absolute;
+  top: -3.3%;
+  right: 5%;
+  color: #292933;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #ccccff;
+  border: 1px solid #292933;
+  border-radius: 3rem;
+  padding: 0.8rem 1.6rem;
+}
+
+.mentor-card .mentor-img {
+  width: 100%;
+}
+
+.mentor-card .mentor-img img {
+  width: 100%;
+  height: 70%;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-card .mentor-details-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.mentor-card .mentor-name-country {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mentor-card .mentor-name-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mentor-card .mentor-name {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.mentor-card .country {
+  font-size: 1.4rem;
+}
+
+.mentor-card .mentor-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1.6rem;
+  font-weight: 800;
+  border-radius: 3rem;
+  padding: 0.8rem 1.6rem;
+  color: #ccccff;
+  background-color: #292933;
+}
+
+.mentor-card .mentor-tag .icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.mentor-card .mentor-occupation,
+.mentor-card .location,
+.mentor-card .language {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.mentor-card .locality {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.mentor-card .mentor-company {
+  font-weight: bold;
+}
+
+.mentor-card .mentor-review {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mentor-card .ratings .icon {
+  color: darkorange;
+}
+
+/* .mentor-card .mentor-services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.mentor-card .service-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #292933;
+} */
+
+.mentor-card .mentor-services {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.mentor-card .service-item {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.2rem;
+  gap: 1rem;
+  /* border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; */
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.mentor-card .service-item .icon,
+.mentor-card .service-item p {
+  padding-left: 1rem;
+}
+
+.mentor-card .mentor-description {
+  font-size: 1.4rem;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.mentor-card .mentor-skill-sets {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.mentor-card .mentor-skill {
+  width: auto;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #ccccff;
+  text-align: center;
+  background-color: #292933;
+  border-radius: 3rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.mentor-card .mentorship-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.6rem;
+  position: relative;
+  padding: 1.6rem 0;
+  grid-row: span 3;
+  border-color: #777;
+}
+
+.mentor-card .mentorship-details-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.mentor-card .free-trail {
+  color: #777;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #ddd;
+  border-radius: 3rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.mentor-card .free-trail .icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.mentor-card .mentorship-expectation {
+  font-weight: 700;
+}
+
+.mentor-card .icon-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mentor-card .price {
+  font-size: 4rem;
+  font-weight: 1000;
+}
+
+.mentor-card .price span {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.mentor-card .view-profile {
+  justify-self: center;
+}
+
+.mentor-card .view-profile button {
+  width: 100%;
+  color: #ccccff;
+  font-size: 2rem;
+  font-weight: 900;
+  background-color: #292933;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+@media (max-width: 960px) {
+  .mentor-card {
+    width: 100%;
+  }
+
+  .mentor-card {
+    grid-template-columns: 0.2fr 1.8fr;
+    column-gap: 1.6rem;
+    padding: 2.4rem;
+    /* grid-template-rows: max-content auto auto auto; */
+  }
+
+  .mentor-card .spots-left {
+    top: -1.9rem;
+  }
+
+  .mentor-card .mentor-img {
+    grid-column: 1/-1;
+    width: 60%;
+    /* height:; */
+    justify-self: center;
+  }
+
+  .mentor-card .mentor-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mentor-card .mentor-details {
+    grid-column: 1/-1;
+  }
+
+  .mentorship-details {
+    /* grid-column:1/-1; */
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .mentor-card {
+    width: 80%;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content auto auto auto;
+  }
+
+  .mentor-card .spots-left {
+    top: -1.8rem;
+  }
+
+  .mentor-card .mentor-img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .mentor-card .mentor-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mentorship-details {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .mentor-card {
+    width: 100%;
+  }
+
+  .mentor-card .mentor-services {
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+  }
+
+  .mentor-card .mentor-skill-sets {
+    grid-template-columns: repeat(2, auto);
+    column-gap: 1rem;
+    row-gap: 1rem;
+  }
+}

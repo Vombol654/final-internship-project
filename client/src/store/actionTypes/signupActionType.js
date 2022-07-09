@@ -1,0 +1,5 @@
+export const signupActionType = {
+  SIGNUP_START: "SIGNUP_START",
+  SIGNUP_SUCCESS: "SIGNUP_SUCCESS",
+  SIGNUP_FAIL: "SIGNUP_FAIL",
+};

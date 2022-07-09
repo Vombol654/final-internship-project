@@ -1,0 +1,27 @@
+.myMentorship-container {
+  width: 80%;
+  /* margin: 0 auto; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.myMentorship-container .table {
+  font-size: 1.8rem;
+  color: #ccccff;
+  background-color: #292932;
+}
+
+.myMentorship-container .table tr {
+  display: table-row;
+  /* vertical-align: middle; */
+  padding: 1.2rem 2.4rem;
+}
+
+.myMentorship-container .table button {
+  font-size: 1.4rem;
+  color: #292932;
+  background-color: #ccccff;
+  padding: 0.4rem 0.8rem;
+}

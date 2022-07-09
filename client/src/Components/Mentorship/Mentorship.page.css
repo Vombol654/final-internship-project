@@ -1,0 +1,80 @@
+.mentorship-page-container {
+  width: 80%;
+  height: 90vh;
+  margin: 3.2rem auto;
+  color: #ccccff;
+  background-color: #292932;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 2.4rem 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content max-content auto;
+  align-items: start;
+  row-gap: 4.2rem;
+}
+
+.mentorship-page-container .navigation-list a,
+.mentorship-page-container .navigation-list span {
+  color: #ccccff;
+}
+
+.mentorship-page-container .mentorship-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2.4rem;
+  row-gap: 4.8rem;
+  align-items: center;
+  /* justify-items: center; */
+  font-size: 1.8rem;
+  /* width: 90%;
+  margin: 0 auto; */
+  /* margin-top: 4.2rem; */
+}
+
+.mentorship-course,
+.mentorship-curriculums {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* row-gap: 0.6rem; */
+}
+
+.mentorship-course p,
+.mentorship-curriculums p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.mentorship-course span,
+.mentorship-curriculums span {
+  font-size: 1.6rem;
+}
+
+.mentorship-mentee-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.mentorship-mentee-details p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.mentorship-mentee-details .table {
+  font-size: 1.8rem;
+  color: #ccccff;
+  background-color: #292932;
+}
+
+.mentorship-mentee-details .table tr {
+  display: table-row;
+  /* vertical-align: middle; */
+  padding: 1.2rem 2.4rem;
+}
+
+.mentorship-mentee-details .table button {
+  font-size: 1.4rem;
+  /* color: #292932;
+  background-color: #ccccff; */
+  padding: 0.4rem 0.8rem;
+}

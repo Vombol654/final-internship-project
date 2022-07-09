@@ -1,0 +1,33 @@
+.btn-login {
+  justify-self: center;
+  width: 30%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #292933;
+  background-color: #ccccff;
+  padding: 12px 24px;
+}
+
+.no-account {
+  margin-top: 3.2rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.no-account a {
+  font-weight: 500;
+  color: #1cb01c;
+}
+
+.toast-bg {
+  font-size: 1.6rem;
+  margin: 2rem auto;
+  background-color: #292933;
+  color: #ccccff;
+}
+
+.toast-header {
+  background-color: #292933;
+  color: #ccccff;
+  border-bottom: 1px solid #ccccff;
+}

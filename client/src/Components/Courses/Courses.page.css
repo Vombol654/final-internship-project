@@ -1,0 +1,8 @@
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5%;
+  row-gap: 5%;
+  width: 80%;
+  margin: 5% auto;
+}

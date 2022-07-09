@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+.quick{
+    margin: 2.7em;
+}
+.quick h2{
+    font-family: 'Prompt', sans-serif;
+    font-size: 3rem;
+}
+.quick h5{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3rem;
+}
+.row{
+    margin-left: 12em;
+}
+@media only screen and (max-width:600px){
+    .row{
+        margin-left: 0 !important;
+    }
+    .quick h2{
+        font-size: 2rem;
+    }
+    .quick h5{
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width:850px) and (min-width:601px) {
+    .row{
+        margin-left: 0 !important;
+    }
+}

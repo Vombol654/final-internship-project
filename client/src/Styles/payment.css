@@ -1,0 +1,36 @@
+.payment-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 1.6rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.payment-from,
+.payment-receiver,
+.payment-amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+.payment-title {
+  font-weight: 600;
+}
+
+.pay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay button {
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.top{
+    border: 1px solid;
+    margin-top: 1em;
+}
+.detail-left{
+    margin-top: 2em;
+}
+.detail-left img{
+    width: 19vw;
+    border-radius: 40%;
+}
+.details-right{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    margin-top: 2em;
+    font-family: 'Lobster', cursive;
+    margin-left: 5em;
+}
+.detail-name{
+    font-size: 2.3em;
+    margin-bottom: 1em;
+}
+.detail-des,.detail-exp,.detail-rat,.detail-pho,.detail-ema{
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+.details-low{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4em;
+    margin-top: 1em;
+    padding: 1em;
+}
+.payment-btn{
+    font-family: 'Lobster', cursive;
+    height: 4em;
+    width: 11em;
+}
+.payment{
+    margin-left: 37%;
+}
+
+@media only screen and (max-width:600px) {
+    .detail-left img{
+        width: 60vw;
+        
+    }
+    .details-right{
+        margin-top: 4em;
+        margin-left: 0;
+        align-items: center;
+    }
+    .detail-name{
+        font-size: 3em;
+       
+    }
+    .detail-des,.detail-exp,.detail-rat,.detail-pho,.detail-ema{
+        font-size: 1em;
+        margin-bottom: 0.6em;
+    }
+    .details-low{
+        font-size: 0.9em;
+    }
+    .payment-btn{
+        height: 3em;
+        width: 10em;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:850px){
+    .detail-left img{
+        height: 39vw;
+        width: 37vw;
+    }
+    .details-right{
+        margin-left: 2em;
+        margin-top: 1.85em;
+    }
+    .detail-name {
+        font-size: 3rem;
+    }
+    .detail-des,.detail-exp,.detail-rat,.detail-pho,.detail-ema{
+        font-size: 1em;
+        margin-bottom: 0.6em;
+    }
+}

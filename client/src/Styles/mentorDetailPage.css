@@ -1,0 +1,311 @@
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.mentor-details-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.navigate-container {
+  position: relative;
+  /* width: 80%; */
+  margin-bottom: 30px;
+  height: 50%;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.navigation-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.navigation-list a {
+  color: #999;
+  font-size: 1.8rem;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
+}
+
+.navigation-list span {
+  font-size: 1.8rem;
+  color: #999;
+}
+
+.navigation-list .icon {
+  width: 2.8rem;
+  height: 2.8rem;
+  margin-right: 0;
+}
+
+.mentor-page {
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  gap: 5rem;
+  /* border: 0.1px solid #292933; */
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+  padding: 3.2rem;
+  color: #292933;
+  margin-top: 2rem;
+}
+
+.mentor-page .mentor-img {
+  width: 100%;
+}
+
+.mentor-page .mentor-img img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0px 0px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 1.5rem;
+}
+
+.mentor-page .mentor-details-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.mentor-page .mentor-name-country {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mentor-page .mentor-name-tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mentor-page .mentor-name {
+  font-size: 3.4rem;
+}
+
+.mentor-page .country {
+  font-size: 1.4rem;
+}
+
+.mentor-page .mentor-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+  border-radius: 3rem;
+  padding: 0.8rem 1.6rem;
+  color: #ccccff;
+  background-color: #292933;
+}
+
+.mentor-page .mentor-occupation,
+.mentor-page .location,
+.mentor-page .language {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.mentor-page .locality {
+  display: flex;
+  align-items: center;
+  gap: 3.4rem;
+}
+
+.mentor-page .mentor-company {
+  font-weight: bold;
+}
+
+.mentor-page .mentor-review {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.mentor-page .ratings .icon {
+  color: darkorange;
+}
+
+.mentor-page .mentor-services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.mentor-page .service-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #292933;
+}
+
+.mentor-page .mentor-description {
+  font-size: 1.6rem;
+  line-height: 2;
+  text-align: justify;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.mentorship-academic-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10%;
+}
+
+.mentor-page .mentor-curriculum-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.mentor-page .mentor-curriculums {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.mentor-page .mentor-curriculum {
+  width: auto;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ccccff;
+  text-align: center;
+  background-color: #292933;
+  border-radius: 3rem;
+  padding: 0.6rem 1.2rem;
+}
+.mentor-page .mentor-skills {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.mentor-page .mentor-skill-sets,
+.mentor-page .mentor-curriculums {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.mentor-page .mentor-skill {
+  width: auto;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ccccff;
+  text-align: center;
+  background-color: #292933;
+  border-radius: 3rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.mentor-page .mentorship-details {
+  font-size: 1.8rem;
+  position: relative;
+  padding: 1.6rem 0;
+  grid-column: 2;
+}
+
+.mentor-page .mentorship-details-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.mentor-page .free-trail {
+  color: #777;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ddd;
+  border-radius: 3rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.mentor-page .free-trail .icon {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.mentor-page .mentorship-expectation {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.mentor-page .feature-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  gap: 1.5rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.mentor-page .feature-item .icon,
+.mentor-page .feature-item p {
+  padding-left: 1rem;
+}
+
+.mentor-page .icon-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mentor-page .price {
+  font-size: 4.6rem;
+  font-weight: 1000;
+}
+
+.mentor-page .price span {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.mentor-page .view-profile {
+  justify-self: center;
+}
+
+.mentor-page .view-profile button {
+  width: 100%;
+  color: #ccccff;
+  font-size: 2.6rem;
+  font-weight: 900;
+  background-color: #292933;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+@media (max-width: 960px) {
+  .mentor-page {
+    width: 100%;
+  }
+}

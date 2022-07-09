@@ -1,0 +1,4 @@
+export const menteeActionType = {
+  PROPOSE_MENTOR: "PROPOSE_MENTOR",
+  FINALIZE_MENTOR: "FINALIZE_MENTOR",
+};

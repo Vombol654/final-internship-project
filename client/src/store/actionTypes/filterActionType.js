@@ -1,0 +1,5 @@
+export const filterActionType = {
+  FILTER_START: "FILTER_START",
+  FILTER_COMPLETE: "FILTER_COMPLETE",
+  FILTER_FAIL: "FILTER_FAIL",
+};

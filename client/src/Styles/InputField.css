@@ -1,0 +1,46 @@
+.input-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field label {
+  position: absolute;
+  top: -3rem;
+  left: 0px;
+  font-size: 1.8rem;
+  color: #ccccff;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-field input {
+  font-size: 1.6rem;
+  color: #ccccff;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccccff;
+  padding: 0 0 0.5rem 0;
+  background: none;
+}
+.input-field input:focus {
+  outline: none;
+}
+
+.input-field label.shrink {
+  top: 0;
+  left: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.error {
+  height: 1.2rem;
+  color: #ff4444;
+  font-size: 1.2rem;
+}

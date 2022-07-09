@@ -1,0 +1,77 @@
+.form-container.signup-form {
+  margin-top: 5rem;
+}
+
+.user-btn-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.user-btn-container button {
+  font-size: 1.8rem;
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  border: none;
+}
+
+.user-btn-container .active {
+  background-color: #292932;
+  color: #ccccff;
+}
+
+.btn-signup {
+  justify-self: center;
+  width: 80%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #292933;
+  background-color: #ccccff;
+  padding: 12px 24px;
+  /* grid-column: 1/-1; */
+}
+
+/* .btn-next {
+  grid-column: 2;
+  /* width: 80%; *
+} */
+
+/* .btn-back,
+.btn-next {
+  width: 80%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #292932;
+  background-color: #ccccff;
+  padding: 1.2rem 2.4rem;
+  justify-self: center;
+} */
+
+.hide {
+  display: none;
+}
+
+/* DATE ICON */
+
+input[type="date"] {
+  position: relative;
+  padding: 10px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: transparent;
+  background: none;
+  z-index: 1;
+}
+
+input[type="date"]:before {
+  background: none;
+  display: block;
+  color: #ccccff;
+  font-size: 1.8rem;
+  font-family: "FontAwesome";
+  content: "\f073";
+  position: absolute;
+  top: 12px;
+  right: 6px;
+}
